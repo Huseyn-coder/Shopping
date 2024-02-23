@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js/index.js" defer ></script>
+    <style>
+        #card div {
+            width: 200px;
+            height: auto;
+            border: 1px solid black;
+            background-color: rgb(191, 151, 230);
+            text-align: center;
+        }
+ #card {
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 200px;
+ }
+ #main {
+    text-align: center;
+ }
+ #main input, #main button {
+    font-size: 30px;
+ }
+ body {
+    background-color: gray;
+ }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <input id="name" placeholder="mehsulun adi"/>
+        <input id="price" placeholder="mehsulun qiymeti"/>
+        <button id="al">Elave Et</button>
+    </div>
+    <div id="card"></div>
+    <div id="umumi"></div>
+</body>
+</html>
