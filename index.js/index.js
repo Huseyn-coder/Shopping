@@ -3,7 +3,7 @@ const name = document.querySelector("#name")
 const price = document.querySelector("#price")
 const card = document.querySelector("#card")
 al.addEventListener("click", function() {
-    if(name.value.trim() == "") {
+    if(name.value.trim() == "" && typeof name.value !== String ) {
         alert("Mehsul qeyd edin!")
     }
     else if (price.value.trim() == "") {
